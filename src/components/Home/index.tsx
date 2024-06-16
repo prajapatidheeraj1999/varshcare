@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Countdown from './Countdown'
 import FirstSection from './Main'
 import ChooseUs from './ChooseUs'
+import ContactUs from './ContactUs'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <FirstSection/>
             <Countdown/>
             <ChooseUs/>
+            <ContactUs/>
             <Footer/>
 
     </div>

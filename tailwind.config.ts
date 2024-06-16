@@ -20,6 +20,7 @@ const config: Config = {
           2: "#9A9DA5",
           3: "#CDCED3",
           4: "#B0B7C3",
+          5:"#666363"
         },
         background: {
           DEFAULT: "#FFFFFF",
