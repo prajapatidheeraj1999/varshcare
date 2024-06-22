@@ -6,6 +6,9 @@ import Countdown from './Countdown'
 import FirstSection from './Main'
 import ChooseUs from './ChooseUs'
 import ContactUs from './ContactUs'
+import PricingCart from './PriceCart'
+import { testData } from './PriceCart/data'
+import Testimonial from './Testimonial'
 
 const HomePage = () => {
   return (
@@ -13,7 +16,9 @@ const HomePage = () => {
             <Navbar/>
             <FirstSection/>
             <Countdown/>
+            <PricingCart tests={testData} />
             <ChooseUs/>
+            <Testimonial />
             <ContactUs/>
             <Footer/>
 

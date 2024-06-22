@@ -17,7 +17,7 @@ const ChooseUsCart: React.FC<ChooseUsCartProp> = ({
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   return (
-    <div  className={`flex flex-col gap-2 group w-64 h-64 justify-center items-center bg-white shadow-md rounded-lg py-6 px-6 border border-solid border-text-3 hover:bg-primary-900 hover:text-white transition-all duration-300 relative overflow-hidden ${isHovered ? 'hover-translate' : ''}`} 
+    <div  className={`flex flex-col gap-2 group lg:w-64  lg:h-64 w-72 h-72 justify-center items-center bg-white shadow-md rounded-lg py-6 px-6 border border-solid border-text-3 hover:bg-primary-900 hover:text-white transition-all duration-300 relative overflow-hidden ${isHovered ? 'hover-translate' : ''}`} 
     onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

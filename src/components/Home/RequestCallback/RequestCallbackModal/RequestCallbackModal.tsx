@@ -25,7 +25,6 @@ const RequestCallbackModalInput=Input<initialValueProp>
 const RequestCallbackModal:React.FC<RequestCallbackModalProps> = ({open,setOpen}) => {
 
     const handelSubmitRequest=(values: initialValueProp, {resetForm}: FormikHelpers<initialValueProp>)=>{
-        console.log( "this is values",values)
         resetForm()
 
     }
