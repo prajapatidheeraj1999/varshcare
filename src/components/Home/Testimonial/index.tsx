@@ -63,6 +63,7 @@ const Testimonial= () => {
               {renderStars(testimonial.rating)}
             </div>
             <p className="text-sm text-center mt-1">{testimonial.text}</p>
+            
           </div>
         ))}
       </div>
