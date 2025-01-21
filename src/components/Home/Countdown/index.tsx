@@ -12,7 +12,7 @@ const Countdown = () => {
             <p>+</p>
             </div>
         
-        <p className='text-sm'>Test Performeds</p>
+        <p className='text-sm'>Test Performed</p>
         </div>
         
         <div className='flex flex-1 flex-col gap-1 items-center border-r border-white'>
